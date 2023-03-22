@@ -1,4 +1,4 @@
-package ru.javaops.bootjava.restaurantvoting;
+package ru.javaops.bootjava;
 
 import lombok.AllArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
@@ -9,7 +9,6 @@ import ru.javaops.bootjava.repository.UserRepository;
 
 @SpringBootApplication
 @AllArgsConstructor
-
 public class RestaurantVotingApplication implements ApplicationRunner {
     private final UserRepository userRepository;
 
